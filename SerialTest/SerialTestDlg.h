@@ -19,13 +19,11 @@ public:
 // 대화 상자 데이터입니다.
 	enum { IDD = IDD_SERIALTEST_DIALOG };
 
+// 전역변수 
 	CSerialPort* m_serial;
-	int* pCursel;
-	int* pOpenValue;
-	HANDLE hnd;
-	CWinThread *pThread;
-	bool bOpenFlag;
-	CCriticalSection g_CriticalSection;
+	int* g_pCursel;
+	int* g_pOpenValue;	
+	bool g_bOpenFlag;
 
 protected:
 	virtual void DoDataExchange(CDataExchange* pDX);	// DDX/DDV 지원입니다.
@@ -41,25 +39,17 @@ protected:
 	afx_msg HCURSOR OnQueryDragIcon();
 	DECLARE_MESSAGE_MAP()
 public:
+	afx_msg HBRUSH OnCtlColor(CDC* pDC, CWnd* pWnd, UINT nCtlColor);
 	afx_msg void OnBnClickedButtonDcb();	
 	afx_msg void OnBnClickedButtonOpen();
+	afx_msg void OnBnClickedButtonClose();
+	afx_msg void OnBnClickedButtonSend();
 	void SetCombotoDCB();
 	void ReadMessage();
 	void ConnectPort();
-	afx_msg void OnBnClickedButtonClose();
-	afx_msg void OnBnClickedButtonSend();
-	static UINT ThreadFunction(LPVOID _mothod);
+	void ConnectState(bool isOpen);
 	CString m_write;
 	CString m_read;
-	CBrush m_brush;
-	void ConnectState(bool isOpen);
-	void SetThread();
-	static void CallbackFunc(LPSTR lpszText, LPVOID lpData) 
-    { 
-        TRACE("%s", lpszText);
-		AfxMessageBox(_T("포트 연결 에러"));
-    } 
-	CButton m_cnt_state;
-	afx_msg HBRUSH OnCtlColor(CDC* pDC, CWnd* pWnd, UINT nCtlColor);
-	void Delay(int ms);
+	CBrush m_brush;	
+	CButton m_cnt_state;	
 };

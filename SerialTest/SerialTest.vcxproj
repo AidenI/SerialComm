@@ -173,7 +173,6 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
     <None Include="ReadMe.txt" />
     <None Include="res\SerialTest.ico" />
     <None Include="res\SerialTest.rc2" />

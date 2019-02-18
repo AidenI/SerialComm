@@ -22,7 +22,6 @@
     <None Include="res\SerialTest.ico">
       <Filter>리소스 파일</Filter>
     </None>
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SerialTest.h">
