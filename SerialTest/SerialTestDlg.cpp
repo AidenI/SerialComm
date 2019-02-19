@@ -217,6 +217,7 @@ void CSerialTestDlg::ConnectPort()
 	{
 		AfxMessageBox(_T("포트를 입력하세요"));
 		GetDlgItem(IDC_BUTTON_SEND)->EnableWindow(FALSE); // 포트 연결 후 portnum을 빈칸 상태로 재 OPEN하였을 때 send버튼 비활성화 추가.(2019.02.19)
+		m_serial->Close(); // 포트 연결 후 portnum을 빈 상태로 연결시도할 경우, 포트는 연결된 상태로 다른 컨트롤만 비활성화 되므로 포트 닫아줌(2019.02.19)
 		return;
 	}
 	else if(strPortNum != NULL)

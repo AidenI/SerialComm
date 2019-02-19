@@ -1,36 +1,34 @@
-﻿빌드 시작: 2019-02-19 오전 11:24:05
-     1>2 노드의 "C:\Users\pc\git\SerialTest\SerialTest.vcxproj" 프로젝트(build 대상)입니다.
+﻿빌드 시작: 2019-02-19 오후 9:33:43
+     1>2 노드의 "C:\Users\L\Documents\git\SerialComm\SerialTest\SerialTest.vcxproj" 프로젝트(build 대상)입니다.
      1>InitializeBuildStatus:
-         "AlwaysCreate"이(가) 지정되었기 때문에 "x64\Debug\SerialTest.unsuccessfulbuild"을(를) 만들고 있습니다.
+         "x64\Debug\SerialTest.unsuccessfulbuild"에 연결(touching)하고 있습니다.
        ClCompile:
          모든 출력이 최신 상태입니다.
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\SerialTest.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt SerialTestDlg.cpp
-         SerialTestDlg.cpp
-     1>SerialTestDlg.cpp(363): warning C4805: '==' : 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+         모든 출력이 최신 상태입니다.
        ResourceCompile:
          모든 출력이 최신 상태입니다.
        ManifestResourceCompile:
          모든 출력이 최신 상태입니다.
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pc\git\x64\Debug\SerialTest.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"x64\Debug\SerialTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\pc\git\x64\Debug\SerialTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pc\git\x64\Debug\SerialTest.lib" /MACHINE:X64 x64\Debug\SerialTest.res
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\L\Documents\git\SerialComm\x64\Debug\SerialTest.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"x64\Debug\SerialTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\L\Documents\git\SerialComm\x64\Debug\SerialTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\L\Documents\git\SerialComm\x64\Debug\SerialTest.lib" /MACHINE:X64 x64\Debug\SerialTest.res
          x64\Debug\SerialTest.exe.embed.manifest.res
          x64\Debug\ChildDlg.obj
          x64\Debug\SerialPort.obj
          x64\Debug\SerialTest.obj
          x64\Debug\SerialTestDlg.obj
          x64\Debug\stdafx.obj
-         SerialTest.vcxproj -> C:\Users\pc\git\x64\Debug\SerialTest.exe
+         SerialTest.vcxproj -> C:\Users\L\Documents\git\SerialComm\x64\Debug\SerialTest.exe
        Manifest:
-         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\SerialTest.exe.embed.manifest" /manifest x64\Debug\SerialTest.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\SerialTest.exe.embed.manifest" /manifest x64\Debug\SerialTest.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
          모든 출력이 최신 상태입니다.
        LinkEmbedManifest:
          모든 출력이 최신 상태입니다.
-         SerialTest.vcxproj -> C:\Users\pc\git\x64\Debug\SerialTest.exe
+         SerialTest.vcxproj -> C:\Users\L\Documents\git\SerialComm\x64\Debug\SerialTest.exe
        FinalizeBuildStatus:
          "x64\Debug\SerialTest.unsuccessfulbuild" 파일을 삭제하고 있습니다.
          "x64\Debug\SerialTest.lastbuildstate"에 연결(touching)하고 있습니다.
-     1>"C:\Users\pc\git\SerialTest\SerialTest.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+     1>"C:\Users\L\Documents\git\SerialComm\SerialTest\SerialTest.vcxproj" 프로젝트를 빌드했습니다(build 대상).
 
 빌드했습니다.
 
-경과 시간: 00:00:02.38
+경과 시간: 00:00:00.66
