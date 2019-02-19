@@ -216,6 +216,7 @@ void CSerialTestDlg::ConnectPort()
 	if(strPortNum == NULL)
 	{
 		AfxMessageBox(_T("포트를 입력하세요"));
+		GetDlgItem(IDC_BUTTON_SEND)->EnableWindow(FALSE); // 포트 연결 후 portnum을 빈칸 상태로 재 OPEN하였을 때 send버튼 비활성화 추가.(2019.02.19)
 		return;
 	}
 	else if(strPortNum != NULL)
@@ -342,9 +343,10 @@ HBRUSH CSerialTestDlg::OnCtlColor(CDC* pDC, CWnd* pWnd, UINT nCtlColor)
 
 	if(g_bOpenFlag == true)
 	{		
-		if(nCtlColor == CTLCOLOR_STATIC && pWnd->GetDlgCtrlID() == IDC_EDIT_CNTSTATE)
+		if(nCtlColor == CTLCOLOR_STATIC&& pWnd->GetDlgCtrlID() == IDC_EDIT_CNTSTATE)
 		{
 			pDC->SetTextColor(RGB(0,0,0));
+			pDC->SetBkColor(RGB(0, 255, 0)); // 텍스트 부분 백그라운드 컬러가 변하지 않아 텍스트의 백그라운드 컬러 추가(2019.02.19)
 			hbr = m_brush;
 		}
 	}

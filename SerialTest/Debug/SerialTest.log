@@ -1,35 +1,41 @@
-﻿빌드 시작: 2019-02-18 오후 10:23:04
-     1>2 노드의 "C:\Users\L\Documents\git\SerialTest\SerialComm\SerialTest\SerialTest.vcxproj" 프로젝트(build 대상)입니다.
+﻿빌드 시작: 2019-02-19 오전 10:57:30
+     1>2 노드의 "C:\Users\pc\git\SerialTest\SerialTest.vcxproj" 프로젝트(build 대상)입니다.
      1>InitializeBuildStatus:
          "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\SerialTest.unsuccessfulbuild"을(를) 만들고 있습니다.
        ClCompile:
-         모든 출력이 최신 상태입니다.
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\SerialTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt SerialTestDlg.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\SerialTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\SerialTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ChildDlg.cpp SerialPort.cpp SerialTest.cpp SerialTestDlg.cpp
          SerialTestDlg.cpp
-     1>c:\users\l\documents\git\serialtest\serialcomm\serialtest\serialtestdlg.cpp(361): warning C4805: '==' : 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+     1>c:\users\pc\git\serialtest\serialtestdlg.cpp(361): warning C4805: '==' : 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+         SerialTest.cpp
+         SerialPort.cpp
+         ChildDlg.cpp
+         코드를 생성하고 있습니다...
        ResourceCompile:
-         모든 출력이 최신 상태입니다.
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0412" /IDebug\ /nologo /fo"Debug\SerialTest.res" SerialTest.rc 
        ManifestResourceCompile:
-         모든 출력이 최신 상태입니다.
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\SerialTest.exe.embed.manifest.res" Debug\SerialTest_manifest.rc 
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\L\Documents\git\SerialTest\SerialComm\Debug\SerialTest.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\SerialTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\L\Documents\git\SerialTest\SerialComm\Debug\SerialTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\L\Documents\git\SerialTest\SerialComm\Debug\SerialTest.lib" /MACHINE:X86 Debug\SerialTest.res
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pc\git\Debug\SerialTest.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\SerialTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\pc\git\Debug\SerialTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pc\git\Debug\SerialTest.lib" /MACHINE:X86 Debug\SerialTest.res
          Debug\SerialTest.exe.embed.manifest.res
          Debug\ChildDlg.obj
          Debug\SerialPort.obj
          Debug\SerialTest.obj
          Debug\SerialTestDlg.obj
          Debug\stdafx.obj
+         LINK : C:\Users\pc\git\Debug\SerialTest.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\SerialTest.exe.embed.manifest" /manifest Debug\SerialTest.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\SerialTest.exe.embed.manifest" /manifest Debug\SerialTest.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
          모든 출력이 최신 상태입니다.
        LinkEmbedManifest:
          모든 출력이 최신 상태입니다.
-         SerialTest.vcxproj -> C:\Users\L\Documents\git\SerialTest\SerialComm\Debug\SerialTest.exe
+         SerialTest.vcxproj -> C:\Users\pc\git\Debug\SerialTest.exe
        FinalizeBuildStatus:
          "Debug\SerialTest.unsuccessfulbuild" 파일을 삭제하고 있습니다.
          "Debug\SerialTest.lastbuildstate"에 연결(touching)하고 있습니다.
-     1>"C:\Users\L\Documents\git\SerialTest\SerialComm\SerialTest\SerialTest.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+     1>"C:\Users\pc\git\SerialTest\SerialTest.vcxproj" 프로젝트를 빌드했습니다(build 대상).
 
 빌드했습니다.
 
-경과 시간: 00:00:00.70
+경과 시간: 00:00:13.95
