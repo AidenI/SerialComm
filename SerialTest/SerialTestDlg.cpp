@@ -235,7 +235,7 @@ void CSerialTestDlg::SetCombotoDCB()
 	{
 	case 0:
 		g_pOpenValue[0] = 19200;
-		break;
+		break; 
 	case 1:
 		g_pOpenValue[0] = 57600;
 		break;

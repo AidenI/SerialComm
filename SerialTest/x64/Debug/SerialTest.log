@@ -1,4 +1,4 @@
-﻿빌드 시작: 2019-02-19 오전 11:13:00
+﻿빌드 시작: 2019-02-19 오전 11:24:05
      1>2 노드의 "C:\Users\pc\git\SerialTest\SerialTest.vcxproj" 프로젝트(build 대상)입니다.
      1>InitializeBuildStatus:
          "AlwaysCreate"이(가) 지정되었기 때문에 "x64\Debug\SerialTest.unsuccessfulbuild"을(를) 만들고 있습니다.
@@ -33,4 +33,4 @@
 
 빌드했습니다.
 
-경과 시간: 00:00:01.84
+경과 시간: 00:00:02.38
